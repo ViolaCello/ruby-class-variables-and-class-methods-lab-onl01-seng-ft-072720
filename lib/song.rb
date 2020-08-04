@@ -27,14 +27,18 @@ end
   
   def self.genre_count
     hash = {}
-    i = 0 
+  
     gen_uni = @@genres.uniq 
+      i = 0 
     gen_uni.each do |g|
       @@genres.each do |j|
-        
+        if j == g then i += 1 
+        end
+        hash[g] = i 
+      end
+    end
     
      
-      end
     end
       
   
