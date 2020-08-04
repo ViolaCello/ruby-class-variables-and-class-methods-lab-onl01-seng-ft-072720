@@ -47,6 +47,22 @@ end
         @@artists.unqi 
       end
       
-      
+      def self.artist_count
+    hash = {}
+  
+    gen_uni = @@artists.uniq 
+   
+    gen_uni.each do |g|
+         i = 0 
+      hash[g] = 0 
+      @@genres.each do |j|
+        if j == g then i += 1 
+        end
+        hash[g] = i 
+      end
+    end
+    
+     hash
+    end
   
 end
