@@ -44,5 +44,9 @@ end
     end
       
       def self.artists
+        @@artists.unqi 
+      end
+      
+      
   
 end
