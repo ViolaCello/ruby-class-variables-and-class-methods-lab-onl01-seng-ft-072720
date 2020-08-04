@@ -43,5 +43,6 @@ end
      hash
     end
       
+      def self.artists
   
 end
