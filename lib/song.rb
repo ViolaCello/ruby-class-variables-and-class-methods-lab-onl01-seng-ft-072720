@@ -55,7 +55,7 @@ end
     gen_uni.each do |g|
          i = 0 
       hash[g] = 0 
-      @@genres.each do |j|
+      @@artists.each do |j|
         if j == g then i += 1 
         end
         hash[g] = i 
