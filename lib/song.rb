@@ -31,7 +31,7 @@ end
     gen_uni = @@genres.uniq 
       i = 0 
     gen_uni.each do |g|
-      hash
+      hash[g] = 0 
       @@genres.each do |j|
         if j == g then i += 1 
         end
