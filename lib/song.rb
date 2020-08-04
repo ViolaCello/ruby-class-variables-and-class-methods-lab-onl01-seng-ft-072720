@@ -25,4 +25,17 @@ end
     @@genres.uniq 
   end
   
+  def self.genre_count
+    hash = {}
+    i = 0 
+    gen_uni = @@genres.uniq 
+    gen_uni.each do |g|
+      @@genres.each do |j|
+        
+    
+     
+      end
+    end
+      
+  
 end
