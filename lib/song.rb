@@ -50,7 +50,7 @@ end
       def self.artist_count
     hash = {}
   
-    gen_uni = @@artists.uniq 
+    gen_uni = @@artists.unqi 
    
     gen_uni.each do |g|
          i = 0 
