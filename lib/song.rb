@@ -44,13 +44,13 @@ end
     end
       
       def self.artists
-        @@artists.unqi 
+        @@artists.uniq 
       end
       
       def self.artist_count
     hash = {}
   
-    gen_uni = @@artists.unqi 
+    gen_uni = @@artists.uniq 
    
     gen_uni.each do |g|
          i = 0 
